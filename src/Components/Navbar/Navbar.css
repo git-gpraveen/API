@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background: linear-gradient(to bottom, #99ccff 0%, #ff99ff 79%);
+}
+
+.nav-logo img{
+   width: 100px;
+   height: 100px;
+   margin-left: 30px;
+}
+
+.navbar-menu{
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.navbar-menu li{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+     color: white;
+   
+}
+
+.navbar-menu li:hover{
+    color:#000;
+}
